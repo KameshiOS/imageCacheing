@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E67576751EF7AA5200FA7C1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67576741EF7AA5200FA7C1B /* AppDelegate.swift */; };
+		E675767A1EF7AA5200FA7C1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E67576781EF7AA5200FA7C1B /* Main.storyboard */; };
+		E675767D1EF7AA5200FA7C1B /* MindValleyDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E675767B1EF7AA5200FA7C1B /* MindValleyDemo.xcdatamodeld */; };
+		E675767F1EF7AA5200FA7C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E675767E1EF7AA5200FA7C1B /* Assets.xcassets */; };
+		E67576821EF7AA5200FA7C1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E67576801EF7AA5200FA7C1B /* LaunchScreen.storyboard */; };
+		E675768D1EF7AA5200FA7C1B /* MindValleyDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E675768C1EF7AA5200FA7C1B /* MindValleyDemoTests.swift */; };
+		E67576981EF7AA5200FA7C1B /* MindValleyDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67576971EF7AA5200FA7C1B /* MindValleyDemoUITests.swift */; };
+		E67576A71EF7AAED00FA7C1B /* include in Resources */ = {isa = PBXBuildFile; fileRef = E67576A51EF7AAED00FA7C1B /* include */; };
+		E67576A81EF7AAED00FA7C1B /* libMindValleyStatic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E67576A61EF7AAED00FA7C1B /* libMindValleyStatic.a */; };
+		E67576AE1EF7ABE500FA7C1B /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67576AD1EF7ABE500FA7C1B /* InitialViewController.swift */; };
+		E67576B11EF7ACD400FA7C1B /* ImageViewDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67576B01EF7ACD400FA7C1B /* ImageViewDesign.swift */; };
+		E67576B31EF7B30D00FA7C1B /* InitialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67576B21EF7B30D00FA7C1B /* InitialTableViewCell.swift */; };
+		E67576B51EF7C4FC00FA7C1B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67576B41EF7C4FC00FA7C1B /* DetailViewController.swift */; };
+		E67576B71EF7C5E800FA7C1B /* ViewDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67576B61EF7C5E800FA7C1B /* ViewDesign.swift */; };
+		E67576B91EF7CE5600FA7C1B /* TextViewDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67576B81EF7CE5600FA7C1B /* TextViewDesign.swift */; };
+		E67576BB1EF7F18100FA7C1B /* ButtonDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67576BA1EF7F18100FA7C1B /* ButtonDesign.swift */; };
+		E67576BD1EF7F4D600FA7C1B /* EnterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67576BC1EF7F4D600FA7C1B /* EnterViewController.swift */; };
+		E67576BF1EF800B000FA7C1B /* UserWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67576BE1EF800B000FA7C1B /* UserWebViewController.swift */; };
+		E67576C11EF806A400FA7C1B /* CheckNetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67576C01EF806A400FA7C1B /* CheckNetworkConnection.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E67576891EF7AA5200FA7C1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E67576691EF7AA5200FA7C1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E67576701EF7AA5200FA7C1B;
+			remoteInfo = MindValleyDemo;
+		};
+		E67576941EF7AA5200FA7C1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E67576691EF7AA5200FA7C1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E67576701EF7AA5200FA7C1B;
+			remoteInfo = MindValleyDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E67576711EF7AA5200FA7C1B /* MindValleyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindValleyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E67576741EF7AA5200FA7C1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E67576791EF7AA5200FA7C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E675767C1EF7AA5200FA7C1B /* MindValleyDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MindValleyDemo.xcdatamodel; sourceTree = "<group>"; };
+		E675767E1EF7AA5200FA7C1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E67576811EF7AA5200FA7C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E67576831EF7AA5200FA7C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E67576881EF7AA5200FA7C1B /* MindValleyDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindValleyDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E675768C1EF7AA5200FA7C1B /* MindValleyDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindValleyDemoTests.swift; sourceTree = "<group>"; };
+		E675768E1EF7AA5200FA7C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E67576931EF7AA5200FA7C1B /* MindValleyDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindValleyDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E67576971EF7AA5200FA7C1B /* MindValleyDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindValleyDemoUITests.swift; sourceTree = "<group>"; };
+		E67576991EF7AA5200FA7C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E67576A51EF7AAED00FA7C1B /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		E67576A61EF7AAED00FA7C1B /* libMindValleyStatic.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMindValleyStatic.a; sourceTree = "<group>"; };
+		E67576A91EF7AB5200FA7C1B /* MindValleyDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MindValleyDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		E67576AD1EF7ABE500FA7C1B /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		E67576B01EF7ACD400FA7C1B /* ImageViewDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewDesign.swift; sourceTree = "<group>"; };
+		E67576B21EF7B30D00FA7C1B /* InitialTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialTableViewCell.swift; sourceTree = "<group>"; };
+		E67576B41EF7C4FC00FA7C1B /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E67576B61EF7C5E800FA7C1B /* ViewDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDesign.swift; sourceTree = "<group>"; };
+		E67576B81EF7CE5600FA7C1B /* TextViewDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewDesign.swift; sourceTree = "<group>"; };
+		E67576BA1EF7F18100FA7C1B /* ButtonDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonDesign.swift; sourceTree = "<group>"; };
+		E67576BC1EF7F4D600FA7C1B /* EnterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterViewController.swift; sourceTree = "<group>"; };
+		E67576BE1EF800B000FA7C1B /* UserWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserWebViewController.swift; sourceTree = "<group>"; };
+		E67576C01EF806A400FA7C1B /* CheckNetworkConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckNetworkConnection.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E675766E1EF7AA5200FA7C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E67576A81EF7AAED00FA7C1B /* libMindValleyStatic.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E67576851EF7AA5200FA7C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E67576901EF7AA5200FA7C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E67576681EF7AA5200FA7C1B = {
+			isa = PBXGroup;
+			children = (
+				E67576731EF7AA5200FA7C1B /* MindValleyDemo */,
+				E675768B1EF7AA5200FA7C1B /* MindValleyDemoTests */,
+				E67576961EF7AA5200FA7C1B /* MindValleyDemoUITests */,
+				E67576721EF7AA5200FA7C1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E67576721EF7AA5200FA7C1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E67576711EF7AA5200FA7C1B /* MindValleyDemo.app */,
+				E67576881EF7AA5200FA7C1B /* MindValleyDemoTests.xctest */,
+				E67576931EF7AA5200FA7C1B /* MindValleyDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E67576731EF7AA5200FA7C1B /* MindValleyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E67576AF1EF7ABEF00FA7C1B /* Design */,
+				E67576AC1EF7ABD100FA7C1B /* ViewController */,
+				E67576A51EF7AAED00FA7C1B /* include */,
+				E67576A61EF7AAED00FA7C1B /* libMindValleyStatic.a */,
+				E67576741EF7AA5200FA7C1B /* AppDelegate.swift */,
+				E67576781EF7AA5200FA7C1B /* Main.storyboard */,
+				E675767E1EF7AA5200FA7C1B /* Assets.xcassets */,
+				E67576801EF7AA5200FA7C1B /* LaunchScreen.storyboard */,
+				E67576831EF7AA5200FA7C1B /* Info.plist */,
+				E675767B1EF7AA5200FA7C1B /* MindValleyDemo.xcdatamodeld */,
+				E67576A91EF7AB5200FA7C1B /* MindValleyDemo-Bridging-Header.h */,
+			);
+			path = MindValleyDemo;
+			sourceTree = "<group>";
+		};
+		E675768B1EF7AA5200FA7C1B /* MindValleyDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E675768C1EF7AA5200FA7C1B /* MindValleyDemoTests.swift */,
+				E675768E1EF7AA5200FA7C1B /* Info.plist */,
+			);
+			path = MindValleyDemoTests;
+			sourceTree = "<group>";
+		};
+		E67576961EF7AA5200FA7C1B /* MindValleyDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E67576971EF7AA5200FA7C1B /* MindValleyDemoUITests.swift */,
+				E67576991EF7AA5200FA7C1B /* Info.plist */,
+			);
+			path = MindValleyDemoUITests;
+			sourceTree = "<group>";
+		};
+		E67576AC1EF7ABD100FA7C1B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E67576AD1EF7ABE500FA7C1B /* InitialViewController.swift */,
+				E67576B21EF7B30D00FA7C1B /* InitialTableViewCell.swift */,
+				E67576B41EF7C4FC00FA7C1B /* DetailViewController.swift */,
+				E67576BC1EF7F4D600FA7C1B /* EnterViewController.swift */,
+				E67576BE1EF800B000FA7C1B /* UserWebViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		E67576AF1EF7ABEF00FA7C1B /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				E67576B01EF7ACD400FA7C1B /* ImageViewDesign.swift */,
+				E67576B61EF7C5E800FA7C1B /* ViewDesign.swift */,
+				E67576B81EF7CE5600FA7C1B /* TextViewDesign.swift */,
+				E67576BA1EF7F18100FA7C1B /* ButtonDesign.swift */,
+				E67576C01EF806A400FA7C1B /* CheckNetworkConnection.swift */,
+			);
+			name = Design;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E67576701EF7AA5200FA7C1B /* MindValleyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E675769C1EF7AA5200FA7C1B /* Build configuration list for PBXNativeTarget "MindValleyDemo" */;
+			buildPhases = (
+				E675766D1EF7AA5200FA7C1B /* Sources */,
+				E675766E1EF7AA5200FA7C1B /* Frameworks */,
+				E675766F1EF7AA5200FA7C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindValleyDemo;
+			productName = MindValleyDemo;
+			productReference = E67576711EF7AA5200FA7C1B /* MindValleyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E67576871EF7AA5200FA7C1B /* MindValleyDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E675769F1EF7AA5200FA7C1B /* Build configuration list for PBXNativeTarget "MindValleyDemoTests" */;
+			buildPhases = (
+				E67576841EF7AA5200FA7C1B /* Sources */,
+				E67576851EF7AA5200FA7C1B /* Frameworks */,
+				E67576861EF7AA5200FA7C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E675768A1EF7AA5200FA7C1B /* PBXTargetDependency */,
+			);
+			name = MindValleyDemoTests;
+			productName = MindValleyDemoTests;
+			productReference = E67576881EF7AA5200FA7C1B /* MindValleyDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E67576921EF7AA5200FA7C1B /* MindValleyDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E67576A21EF7AA5200FA7C1B /* Build configuration list for PBXNativeTarget "MindValleyDemoUITests" */;
+			buildPhases = (
+				E675768F1EF7AA5200FA7C1B /* Sources */,
+				E67576901EF7AA5200FA7C1B /* Frameworks */,
+				E67576911EF7AA5200FA7C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E67576951EF7AA5200FA7C1B /* PBXTargetDependency */,
+			);
+			name = MindValleyDemoUITests;
+			productName = MindValleyDemoUITests;
+			productReference = E67576931EF7AA5200FA7C1B /* MindValleyDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E67576691EF7AA5200FA7C1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Payzak Financial Service";
+				TargetAttributes = {
+					E67576701EF7AA5200FA7C1B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = X5JVCUAPH2;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					E67576871EF7AA5200FA7C1B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = X5JVCUAPH2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E67576701EF7AA5200FA7C1B;
+					};
+					E67576921EF7AA5200FA7C1B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = X5JVCUAPH2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E67576701EF7AA5200FA7C1B;
+					};
+				};
+			};
+			buildConfigurationList = E675766C1EF7AA5200FA7C1B /* Build configuration list for PBXProject "MindValleyDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E67576681EF7AA5200FA7C1B;
+			productRefGroup = E67576721EF7AA5200FA7C1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E67576701EF7AA5200FA7C1B /* MindValleyDemo */,
+				E67576871EF7AA5200FA7C1B /* MindValleyDemoTests */,
+				E67576921EF7AA5200FA7C1B /* MindValleyDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E675766F1EF7AA5200FA7C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E67576821EF7AA5200FA7C1B /* LaunchScreen.storyboard in Resources */,
+				E675767F1EF7AA5200FA7C1B /* Assets.xcassets in Resources */,
+				E675767A1EF7AA5200FA7C1B /* Main.storyboard in Resources */,
+				E67576A71EF7AAED00FA7C1B /* include in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E67576861EF7AA5200FA7C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E67576911EF7AA5200FA7C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E675766D1EF7AA5200FA7C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E67576BB1EF7F18100FA7C1B /* ButtonDesign.swift in Sources */,
+				E67576B11EF7ACD400FA7C1B /* ImageViewDesign.swift in Sources */,
+				E67576B91EF7CE5600FA7C1B /* TextViewDesign.swift in Sources */,
+				E67576B31EF7B30D00FA7C1B /* InitialTableViewCell.swift in Sources */,
+				E67576AE1EF7ABE500FA7C1B /* InitialViewController.swift in Sources */,
+				E67576BD1EF7F4D600FA7C1B /* EnterViewController.swift in Sources */,
+				E67576B51EF7C4FC00FA7C1B /* DetailViewController.swift in Sources */,
+				E67576C11EF806A400FA7C1B /* CheckNetworkConnection.swift in Sources */,
+				E67576B71EF7C5E800FA7C1B /* ViewDesign.swift in Sources */,
+				E67576BF1EF800B000FA7C1B /* UserWebViewController.swift in Sources */,
+				E675767D1EF7AA5200FA7C1B /* MindValleyDemo.xcdatamodeld in Sources */,
+				E67576751EF7AA5200FA7C1B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E67576841EF7AA5200FA7C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E675768D1EF7AA5200FA7C1B /* MindValleyDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E675768F1EF7AA5200FA7C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E67576981EF7AA5200FA7C1B /* MindValleyDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E675768A1EF7AA5200FA7C1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E67576701EF7AA5200FA7C1B /* MindValleyDemo */;
+			targetProxy = E67576891EF7AA5200FA7C1B /* PBXContainerItemProxy */;
+		};
+		E67576951EF7AA5200FA7C1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E67576701EF7AA5200FA7C1B /* MindValleyDemo */;
+			targetProxy = E67576941EF7AA5200FA7C1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E67576781EF7AA5200FA7C1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E67576791EF7AA5200FA7C1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E67576801EF7AA5200FA7C1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E67576811EF7AA5200FA7C1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E675769A1EF7AA5200FA7C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E675769B1EF7AA5200FA7C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E675769D1EF7AA5200FA7C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = X5JVCUAPH2;
+				INFOPLIST_FILE = MindValleyDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MindValleyDemo",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rljinfotech.MindValleyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MindValleyDemo/MindValleyDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E675769E1EF7AA5200FA7C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = X5JVCUAPH2;
+				INFOPLIST_FILE = MindValleyDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MindValleyDemo",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rljinfotech.MindValleyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MindValleyDemo/MindValleyDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E67576A01EF7AA5200FA7C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X5JVCUAPH2;
+				INFOPLIST_FILE = MindValleyDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rljinfotech.MindValleyDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindValleyDemo.app/MindValleyDemo";
+			};
+			name = Debug;
+		};
+		E67576A11EF7AA5200FA7C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X5JVCUAPH2;
+				INFOPLIST_FILE = MindValleyDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rljinfotech.MindValleyDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindValleyDemo.app/MindValleyDemo";
+			};
+			name = Release;
+		};
+		E67576A31EF7AA5200FA7C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = X5JVCUAPH2;
+				INFOPLIST_FILE = MindValleyDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rljinfotech.MindValleyDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MindValleyDemo;
+			};
+			name = Debug;
+		};
+		E67576A41EF7AA5200FA7C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = X5JVCUAPH2;
+				INFOPLIST_FILE = MindValleyDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rljinfotech.MindValleyDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MindValleyDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E675766C1EF7AA5200FA7C1B /* Build configuration list for PBXProject "MindValleyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E675769A1EF7AA5200FA7C1B /* Debug */,
+				E675769B1EF7AA5200FA7C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E675769C1EF7AA5200FA7C1B /* Build configuration list for PBXNativeTarget "MindValleyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E675769D1EF7AA5200FA7C1B /* Debug */,
+				E675769E1EF7AA5200FA7C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E675769F1EF7AA5200FA7C1B /* Build configuration list for PBXNativeTarget "MindValleyDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E67576A01EF7AA5200FA7C1B /* Debug */,
+				E67576A11EF7AA5200FA7C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E67576A21EF7AA5200FA7C1B /* Build configuration list for PBXNativeTarget "MindValleyDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E67576A31EF7AA5200FA7C1B /* Debug */,
+				E67576A41EF7AA5200FA7C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E675767B1EF7AA5200FA7C1B /* MindValleyDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E675767C1EF7AA5200FA7C1B /* MindValleyDemo.xcdatamodel */,
+			);
+			currentVersion = E675767C1EF7AA5200FA7C1B /* MindValleyDemo.xcdatamodel */;
+			path = MindValleyDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E67576691EF7AA5200FA7C1B /* Project object */;
+}
